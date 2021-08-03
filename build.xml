@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="STUDENT_PERFORMENCE_ANALYSIS" default="default" basedir=".">
-    <description>Builds, tests, and runs the project STUDENT_PERFORMENCE_ANALYSIS.</description>
+<project name="INSTITUTE_MAINTANCE_SYSTEM" default="default" basedir=".">
+    <description>Builds, tests, and runs the project INSTITUTE_MAINTANCE_SYSTEM.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 

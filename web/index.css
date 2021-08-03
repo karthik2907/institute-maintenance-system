@@ -28,12 +28,13 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: Arial;
-  background-color: #E2F9CC;
+  background-color: #ebebfa;
 }
 /*style the title*/
 .title{
   text-align: center;
-  color:#0073e6;
+  text-shadow:2px 2px #ffb3b3;
+  color:#000099;
 }
 /* Style tab links */
 .tablink {
@@ -54,7 +55,7 @@ body, html {
 
 .tablink:hover {
   color: #fff;
-    background: #ff5722;
+    background: #0099e6;
 }
 
 /* Style the tab content (and add height:100% for full page content) */
@@ -62,7 +63,7 @@ body, html {
   display: none;
   padding: 100px 20px;
   height: 60%;
-  text-align: center;
+  text-align:center;
 }
 /*drop down navbar*/
 .dropbtn {
@@ -71,8 +72,6 @@ body, html {
   font-size: 16px;
   border: none;
   cursor: pointer;
-
-
 }
 
 /*.dropdown {
@@ -105,9 +104,38 @@ body, html {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: #0099e6;
 }
-
+.prolist{
+    display:none;
+}
+.probutton{
+    color:#fff;
+    background-color:#cca300;
+    padding:10px;
+    font-size: 16px;
+    border: none;
+}
+.probutton a{
+    color:#fff;
+    text-decoration: none;
+    background-color:#cca300;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+.prog:hover .prolist{
+    display:block;
+}
+.prolist a{
+    text-decoration: none;
+    padding:12px 14px;
+    display: block;
+    color:black;
+}
+.tabcontent h2{
+    color:#ff6666
+}
 .karthik{
   color: #323232;
   float: left;
@@ -126,5 +154,85 @@ body, html {
 
 .karthik:hover {
   color: #fff;
-    background: #ff5722;
+    background:#0099e6;
+}
+.upg table,th,td{
+    width: 1000px;
+    text-align: left;
+}
+.upg th,td{
+    padding:10px;
+    border-style:solid;
+    border-color:white;
+}
+.upg th{
+    background-color: #ffd9b3;
+}
+.upg td{
+    background-color:#fff2e6
+}
+.upg h1{
+    color: #663300;
+    text-align: center;
+}
+.fee table,th,td{
+    width: 1000px;
+    text-align: center;
+}
+.fee th,td{
+    padding:15px;
+    border-style:solid;
+    border-color:white;
+    }
+.fee th{
+    background-color:#99ccff;
+ }
+.fee td{
+    background-color:#e6f2ff;
+}
+.fee h3{
+    color: #663300;
+    text-align: center;
+}
+.reg td,th{
+    width:500px;
+    border-style:solid;
+    padding:10px;
+    border-color:#fff;
+}
+.reg a{
+    text-decoration:none;
+    color:black;
+}
+.reg a:hover{
+    color: red;
+}
+.reg h2,h3{
+    color:#ff0066;
+    text-align: left;
+}
+.reg td{
+    background-color:#f9ecf2;
+}
+.cur td,th{
+    width:500px;
+    border-style:solid;
+    padding:10px;
+    border-color:#fff;
+}
+.cur a{
+    text-decoration:none;
+    color:black;
+}
+.cur a:hover{
+     color: red;
+}
+.cur h2{
+    color:#990000;
+}
+.cur th{
+    background-color:#b3e6cc;
+}
+.cur td{
+    background-color: #ecf9f2;
 }
